@@ -1,0 +1,59 @@
+@import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css');
+
+.FormMenu{
+  margin: 25px 0;
+  input {
+    border: #84b0ad 1px solid;
+    padding: 10px 5px;
+    border-radius: 12px;
+  }
+  .container{
+    width: 100%;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 30%;
+    button {
+      background: #84b0ad;
+      color: white;
+      border: none;
+      border-radius: 12px;
+      padding: 10px 14px;
+      max-width: 500px;
+    }
+    button:hover {
+      color: wheat;
+      transition: .3s color linear;
+    }
+  }
+}
+.ItemMenu {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border: #84b0ad 1px solid;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 12px;
+  .dateCo {
+    display: flex;
+    justify-content: space-between;
+    gap: 14px;
+  }
+  .date {
+
+  }
+  .rem {
+    button {
+      border: none;
+      color: #84b0ad;
+      font-size: 20px;
+      background: none;
+    }
+    button:hover {
+      color: wheat;
+      transition: color .2s linear;
+    }
+  }
+}

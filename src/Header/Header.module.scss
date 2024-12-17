@@ -1,0 +1,24 @@
+.header {
+  width: 100%;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.main {
+  background-color: #84b0ad;
+  color: white;
+}
+.header_item{
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  a {
+    color: white;
+    text-decoration: none;
+  }
+}
+.header_item a:hover {
+  color: wheat;
+  transition: color .2s linear;
+  cursor: pointer;
+}
